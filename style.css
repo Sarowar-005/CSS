@@ -1,0 +1,67 @@
+/*
+
+p{
+    text-align: center;
+} 
+*/
+
+.flAlign{
+    background-color: powderblue;
+    height: 100px;
+}
+.div1{
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.div2{
+    float: right;
+    width: 100px;
+    height: 100px;
+    background-color: orangered;
+}
+.mAuto{
+    background-color: rgb(241, 226, 241);
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    width: 50%;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+a{
+    display: block;
+    text-decoration: none;
+}
+a:link{
+    color: cadetblue;
+}
+a:hover{
+    color: blue;
+}
+a:visited{
+    color: red;
+}
+a:active{
+    color: orangered;
+}
+input:focus{
+    background-color: gray;
+    color:white;
+}
+.after::after{
+    content: "-Rebember this";
+    background-color: yellow;
+    color:gray;
+    padding: 2px;
+}
+.before::before{
+    content: "Before content-";
+    background-color: red;
+    padding: 2px;
+    color:white;
+}
